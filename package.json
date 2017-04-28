@@ -1,0 +1,69 @@
+{
+    "author": "Jahdai Cintron",
+    "dependencies": {},
+    "keywords": [],
+    "name": "wunderpebble-watchface",
+    "pebble": {
+        "capabilities": [
+            "configurable",
+            "health"
+        ],
+        "displayName": "Wunderpebble Watchface",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/logo.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_LOGO",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/battery_low.png",
+                    "name": "IMAGE_BATTERY_LOW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/battery.png",
+                    "name": "IMAGE_BATTERY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/steps.png",
+                    "name": "IMAGE_STEPS",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/tasks.png",
+                    "name": "IMAGE_TASKS",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/charging.png",
+                    "name": "IMAGE_BATTERY_CHARGING",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "0a18139d-6676-4b7e-861c-9cf03b74c53b",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "0.5.0"
+}
